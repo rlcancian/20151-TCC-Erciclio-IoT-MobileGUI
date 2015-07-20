@@ -1,0 +1,89 @@
+    
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    > 
+
+
+    <LinearLayout
+        android:id="@+id/searchLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+        
+        <EditText
+            android:id="@+id/etUser"
+            android:inputType="text"
+            android:text="@string/user"
+            style="@style/inputs"
+            android:layout_marginBottom="20dp">
+        </EditText>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:inputType="text"
+            android:text="@string/password"
+            style="@style/inputs"
+            android:layout_marginBottom="10dp" />
+
+        <CheckBox
+            android:id="@+id/ckSaveUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/saveUser"
+            android:textSize="14sp"
+            android:layout_marginBottom="20dp"/>
+        
+        <EditText
+            android:id="@+id/etServer"
+            android:layout_marginBottom="30dp"
+            android:inputType="text"
+            android:text="@string/server"
+            style="@style/inputs">
+        </EditText>
+
+        <RadioGroup
+            android:id="@+id/radioGroup1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/rbWiFi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/rbWiFi" />
+
+            <RadioButton
+                android:id="@+id/rbBluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbBluetooth" />
+
+            <RadioButton
+                android:id="@+id/rbTest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rbTest" />
+        </RadioGroup>
+
+        <Button
+            style="@style/Button"
+            android:id="@+id/bSearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/main_btSearch" />
+    </LinearLayout>
+
+    <include layout="@layout/progress_layout" android:visibility="invisible"/>
+
+</FrameLayout>

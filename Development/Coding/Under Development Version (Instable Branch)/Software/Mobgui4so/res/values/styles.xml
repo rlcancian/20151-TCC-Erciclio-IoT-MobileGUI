@@ -1,0 +1,47 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+    </style>
+    <style name="MainAppTheme" parent="AppBaseTheme">
+        <!-- <item name="android:windowFullscreen">true</item> -->
+        <item name="android:windowNoTitle">true</item>
+        
+    </style>
+    
+     <style name="Button" parent="@android:style/Widget.Button">
+    </style>
+    <style name="inputs">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:textColor">@color/fontInput</item>
+        <item name="android:ems">10</item>
+        <item name="android:background">@drawable/inputs</item>
+    </style>
+    
+    <style name="frame">
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:background">@drawable/inputs</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

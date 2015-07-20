@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/previous_gui"
+        android:icon="@drawable/ic_action_previous_item_enabled"
+        android:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="Previous GUI"/>
+    <item
+        android:id="@+id/next_gui"
+        android:icon="@drawable/ic_action_next_item_enabled"
+        android:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="Next GUI"/>
+
+    <item
+        android:id="@+id/refresh_option"
+        android:icon="@drawable/ic_action_refresh_enabled"
+        android:showAsAction="ifRoom"
+        android:enabled="true"
+        android:title="Refresh"/>
+
+</menu>

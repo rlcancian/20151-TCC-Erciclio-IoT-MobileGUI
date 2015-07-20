@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mobgui4so</string>
+    <string name="action_settings">Configurações</string>
+    <string name="hello_world">Olá Mundo!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_list_smart_object">Objetos Encontrados</string>
+    <string name="title_activity_smart_object_gui">SmartObjectGUIActivity</string>
+    <string name="main_btSearch">Pesquisar</string>
+    <string name="rbWiFi">WiFi</string>
+    <string name="rbBluetooth">Bluetooth</string>
+    <string name="rbTest">Teste</string>
+    <string name="error_connection_unavaiable">Conexão não disponível</string>
+    <string name="wait">Aguarde...</string>
+    <string name="noSOfound">Nenhum objeto inteligente encontrado.</string>
+    <string name="user">Usuário:</string>
+    <string name="password">Senha:</string>
+    <string name="server">Servidor:</string>
+    <string name="saveUser">Savar meu usuário e senha</string>
+    <string name="pmDiscovering">Buscando dispositivos...</string>
+    <string name="pmGeneratingGUI">Gerando GUI...</string>
+    <string name="guiGenerated">Tela gerada com sucesso!</string>
+    <string name="invalidUser">Usuario ou senha invalido!</string>
+
+</resources>
